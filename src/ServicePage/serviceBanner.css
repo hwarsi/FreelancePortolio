@@ -1,0 +1,33 @@
+.bodyServiceBanner {
+  width: 100vw;
+  height: 70vh;
+  filter: alpha(opacity=20000000);
+  opacity: 5.5;
+  background: url("./software.jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceTitle {
+  bottom: 500px;
+  color: azure;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgb(2, 24, 24);
+}
+
+.servicesubTitle {
+  width: 500px;
+  color: #fff;
+  bottom: 400px;
+  left: 32%;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgb(2, 24, 24);
+}

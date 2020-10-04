@@ -1,0 +1,131 @@
+@media screen and (max-width: 1940px) {
+  .contactBody {
+    background-image: url("./ContactBackground.jpg");
+    margin-top: 30px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactFrom {
+    width: 430px;
+    border: 5px solid black;
+    border-radius: 3%;
+    background-color: white;
+    height: 600px;
+  }
+  .name {
+    margin-left: 50px;
+    height: 35px;
+  }
+
+  .other {
+    display: flex;
+    height: 35px;
+    width: 310px;
+  }
+
+  .inputTitle {
+    margin-top: 20px;
+  }
+
+  .textFiled {
+    height: 90px;
+    margin-bottom: 30px;
+    width: 310px;
+  }
+
+  .ContactFromTitle {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .submitButton {
+    border: 5px solid #ff304f;
+    color: #fff;
+    background-color: #ff304f;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #ff304f;
+    align-items: center;
+    margin-left: 125px;
+    cursor: pointer;
+  }
+
+  #lastName {
+    width: 130px;
+  }
+
+  #firstName {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .contactBody {
+    background-image: url("./ContactBackground.jpg");
+    margin-top: 30px;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactFrom {
+    width: 430px;
+    border: 5px solid black;
+    border-radius: 3%;
+    background-color: white;
+    height: 600px;
+  }
+  .name {
+    margin-left: 50px;
+    height: 35px;
+  }
+
+  .other {
+    display: flex;
+    height: 35px;
+    width: 310px;
+  }
+
+  .inputTitle {
+    margin-top: 20px;
+  }
+
+  .textFiled {
+    height: 90px;
+    margin-bottom: 30px;
+    width: 310px;
+  }
+
+  .ContactFromTitle {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .submitButton {
+    border: 5px solid #ff304f;
+    color: #fff;
+    background-color: #ff304f;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #ff304f;
+    align-items: center;
+    margin-left: 125px;
+    cursor: pointer;
+  }
+
+  #lastName {
+    width: 130px;
+  }
+
+  #firstName {
+    width: 130px;
+  }
+}

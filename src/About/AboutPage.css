@@ -1,0 +1,57 @@
+.WholePage {
+  background-color: #07456f;
+}
+
+.Introduction {
+  padding-top: 12%;
+  padding-right: 10%;
+  margin-bottom: 2%;
+  color: azure;
+  font-size: 600%;
+  font-family: sans-serif;
+}
+
+.IntroductionParagraph {
+  margin-right: 5%;
+  color: azure;
+  font-weight: 650;
+  line-height: 1.5;
+  margin-top: 60px;
+  font-family: sans-serif;
+}
+
+.imgContainer {
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 38%;
+}
+
+.bioContainer {
+  width: 50%;
+}
+
+.haris {
+  vertical-align: middle;
+
+  max-height: 700px;
+  max-width: 600px;
+  margin-top: 1%;
+}
+
+.aboutMe {
+  position: absolute;
+  top: 165px;
+  left: 125px;
+}
+.bioContainer {
+  width: 50%;
+}
+
+@media screen and (min-width: 2000px) {
+}
+
+@media screen and (max-width: 1368px) {
+}
+
+@media screen and (max-width: 640px) {
+}
