@@ -18,15 +18,8 @@ class ServiceProcess extends Component {
   render() {
     return (
       <div className="WholePageProcess">
-        <div className="youtubeVideoSkills ">
-          <ReactPlayer
-            className="videoSKills"
-            url="https://www.youtube.com/watch?v=mPQ07Z5ASR8&feature=youtu.be"
-            width="130%"
-          />
-        </div>
-        <div className="processContainer ">
-          <div className="col">
+        <div className="row" id="processContainer">
+          <div className="col processColumn">
             <div className="row">
               <div className="iconAlign">
                 <FontAwesomeIcon icon={faSearch} size="4x" />
@@ -116,6 +109,14 @@ class ServiceProcess extends Component {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="col videoColumn">
+            <div className="youtubeVideoSkills ">
+            <ReactPlayer
+              className="videoSKills"
+              url="https://www.youtube.com/watch?v=mPQ07Z5ASR8&feature=youtu.be"
+            />
+          </div>
           </div>
         </div>
       </div>

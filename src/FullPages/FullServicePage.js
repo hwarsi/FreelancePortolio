@@ -14,12 +14,13 @@ class FullServicePage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="ServicePageContainer">
         <NavBar />
         <ServiceBanner />
         <SkillSection />
         <ServiceProcess />
         <ContactWidget />
+
       </div>
     );
   }

@@ -1,123 +1,105 @@
-@media screen and (max-width: 1940px) {
-  .WholePageProcess {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-  }
+.WholePageProcess {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
 
-  .processContainer {
-  }
-  .player-wrapper {
-    position: absolute;
-    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
-  }
+.processBox {
+  margin-left: 7%;
+  margin-bottom: 50px;
+  width: 70%;
+}
 
-  .react-player {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .processBox {
-    margin: 0px 0px 0px 100px;
-    margin-bottom: 50px;
+.processSubHeading {
+  font-size: 22px;
+  color: #ff304f;
+  font-weight: lighter;
+}
+
+.processTitle {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.processDescription {
+  margin-top: 24px;
+}
+
+.topSubHeading {
+  margin-top: 55px;
+}
+
+#computerDiscovery {
+  width: 100px;
+  height: 100px;
+}
+
+.iconAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  width: 10%;
+}
+
+.youtubeVideoSkills {
+  margin-top: 10%;
+}
+
+.processColumn {
+  width: 50%;
+}
+
+.videoColumn {
+  width: 50%;
+}
+
+@media screen and (min-width: 1930px) {
+  .processColumn {
     width: 50%;
   }
-
-  .processSubHeading {
-    font-size: 22px;
-    color: #ff304f;
-    font-weight: lighter;
+  
+  .videoColumn {
+    width: 50%;
   }
+  
+}
 
-  .processTitle {
-    font-size: 30px;
-    font-family: monospace;
+
+@media screen and (max-width: 1440px) {
+  .processColumn {
+    width: 60%;
   }
-
-  .processDescription {
-    margin-top: 24px;
-  }
-
-  .topSubHeading {
-    margin-top: 55px;
-  }
-
-  #computerDiscovery {
-    width: 100px;
-    height: 100px;
-  }
-
-  .iconAlign {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 10%;
-  }
-
-  .youtubeVideoSkills {
-    margin-top: 3%;
-    position: absolute;
-    z-index: -1;
-    margin-left: 73%;
+  
+  .videoColumn {
+    width: 40%;
   }
 }
 
-@media screen and (max-width: 1440px) {
-  .WholePageProcess {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
+@media screen and (max-width: 768px) {
+
+  #processContainer {
+    flex-direction: column;
   }
 
-  .processContainer {
+  .processColumn {
+    width: 90%;
   }
+  
+  .videoColumn {
+    width: 90%;
+  }
+}
 
+@media screen and (max-width: 425px) {
+
+  .iconAlign { 
+    margin-left: 6%
+  }
   .processBox {
-    margin: 0px 0px 0px 100px;
-    margin-bottom: 50px;
-    width: 45%;
-  }
-
-  .processSubHeading {
-    font-size: 22px;
-    color: #ff304f;
-    font-weight: lighter;
-  }
-
-  .processTitle {
-    font-size: 30px;
-    font-family: monospace;
-  }
-
-  .processDescription {
-    margin-top: 24px;
-  }
-
-  .topSubHeading {
-    margin-top: 55px;
-  }
-
-  #computerDiscovery {
-    width: 100px;
-    height: 100px;
-  }
-
-  .iconAlign {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 10%;
-  }
-
-  .youtubeVideoSkills {
-    margin-top: 3%;
-    position: absolute;
-    z-index: -1;
-    margin-left: 65%;
-    margin-top: 60px;
+    margin-left: 15%
   }
 }
