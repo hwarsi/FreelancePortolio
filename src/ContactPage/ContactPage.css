@@ -1,7 +1,7 @@
 .contactPageBody {
-  min-height: 80vh;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
   background: url("./ContactPage.jpg");
   background-size: cover;
   display: flex;
@@ -62,4 +62,27 @@
   cursor: pointer;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+
+@media screen and (max-width: 460px) {
+  .contactformPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactPagename {
+    width: 240px;
+    margin: 0px;
+  }
+
+  #contactPageLastName  {
+    margin: 0px;
+  }
+
+  .submitButtonPage {
+    margin: 20px 0px;
+  }
+
 }

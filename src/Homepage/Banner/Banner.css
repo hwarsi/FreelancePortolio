@@ -3,22 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.BannerContainer {
+  width: 100%;
+  height: 100%
+}
+
 .Banner {
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: sans-serif;
   background-image: url("./background.jpg");
   color: #fff;
   text-shadow: 0 0 10px;
   overflow: hidden;
 }
+
+.fulllight {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
 .subHeadingBox {
   display: flex;
   background: #000;
   font-family: sans-serif;
   justify-content: center;
+  align-items: center;
 }
 
 .subHeading {
@@ -195,4 +212,26 @@
   to {
     transform: translateY(90vh);
   }
+}
+
+@media screen and (max-width: 860px) {
+  .welcome {
+    font-size: 3em;
+  }
+
+  .subHeading {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .welcome {
+    font-size: 2em;
+  }
+
+  .subHeading {
+    font-size: 16px;
+  }
+
 }

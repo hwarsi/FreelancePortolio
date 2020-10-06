@@ -9,7 +9,7 @@ class FullContactPage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="PageContainer">
         <NavBar />
         <ContactPage />
       </div>

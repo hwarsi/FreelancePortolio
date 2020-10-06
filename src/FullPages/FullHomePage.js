@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Homepage from "../Homepage/Banner/Banner";
+import Banner from "../Homepage/Banner/Banner";
 import NavBar from "../Homepage/NavBar/NavBar";
 
 class FullHomePage extends Component {
@@ -9,9 +9,9 @@ class FullHomePage extends Component {
 
   render() {
     return (
-      <div>
+      <div className="PageContainer">
         <NavBar />
-        <Homepage />
+        <Banner />
       </div>
     );
   }

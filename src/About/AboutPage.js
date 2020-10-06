@@ -12,7 +12,7 @@ class AboutPage extends Component {
 
   render() {
     return (
-      <div className="WholePage">
+      <div className="AboutContainer">
         <div className="row">
           <div className="col imgContainer">
             <img src={haris} className="haris"></img>

@@ -1,33 +1,14 @@
-.WholePage {
+.AboutContainer {
   background-color: #07456f;
-}
 
-.Introduction {
-  padding-top: 12%;
-  padding-right: 10%;
-  margin-bottom: 2%;
-  color: azure;
-  font-size: 600%;
-  font-family: sans-serif;
-}
-
-.IntroductionParagraph {
-  margin-right: 5%;
-  color: azure;
-  font-weight: 650;
-  line-height: 1.5;
-  margin-top: 60px;
-  font-family: sans-serif;
 }
 
 .imgContainer {
   justify-content: flex-end;
   align-items: flex-end;
   width: 38%;
-}
-
-.bioContainer {
-  width: 50%;
+  margin-top: 10%;
+  padding-right: 40px;
 }
 
 .haris {
@@ -38,20 +19,118 @@
   margin-top: 1%;
 }
 
-.aboutMe {
-  position: absolute;
-  top: 165px;
-  left: 125px;
-}
 .bioContainer {
-  width: 50%;
+  margin-top: 9%;
+  width: 62%;
 }
 
-@media screen and (min-width: 2000px) {
+.Introduction {
+  color: azure;
+  width: 60%;
+  font-size: 80px;
+  font-family: sans-serif;
 }
 
-@media screen and (max-width: 1368px) {
+.IntroductionParagraph {
+  color: azure;
+  width: 70%;
+  font-size: 30px;
+  font-weight: 650;
+  line-height: 1.5;
+  margin-top: 60px;
+  font-family: sans-serif;
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 1920px) {
+
+  .Introduction {
+    width: 70%;
+    font-size: 70px;
+
+  }
+
+  .IntroductionParagraph {
+    width: 80%;
+    font-size: 30px;
+  }
+
+}
+
+
+@media screen and (max-width: 1500px) {
+  .Introduction {
+    width: 80%;
+    font-size: 60px;
+  }
+  
+  .IntroductionParagraph {
+    width: 80%;
+    font-size: 25px;
+
+  }
+  
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .bioContainer {
+    margin-top: 15%;
+  }
+
+  .imgContainer { 
+    margin-top: 18%;
+    align-items: center;
+  }
+
+  .haris {
+    max-height: 500px;
+    max-width: 400px;
+  }
+
+  .Introduction {
+    width: 90%;
+    font-size: 50px;
+  }
+  
+  .IntroductionParagraph {
+    width: 100%;
+    font-size: 20px;
+
+  }
+
+}
+
+  @media screen and (max-width: 600px) {
+
+    .bioContainer {
+      margin-top: 35%;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .imgContainer { 
+      margin-top: 38%;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+  
+    .haris {
+      max-height: 400px;
+      max-width: 300px;
+    }
+  
+    .Introduction {
+      width: 90%;
+      font-size: 40px;
+    }
+    
+    .IntroductionParagraph {
+      width: 100%;
+      font-size: 16px;
+  
+    }
+  
 }

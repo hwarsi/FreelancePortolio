@@ -8,7 +8,7 @@ class Banner extends Component {
 
   render() {
     return (
-      <div>
+      <div className="BannerContainer">
         <div className="bounce">
           <div className="ball bounceA"></div>
         </div>
